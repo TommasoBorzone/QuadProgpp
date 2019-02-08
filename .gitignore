@@ -31,3 +31,7 @@
 *.app
 
 build
+src/CMakeFiles
+CMakeFiles
+
+*.cmake

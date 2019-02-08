@@ -205,8 +205,8 @@ double solve_quadprog(Matrix<double>& G, Vector<double>& g0,
     if (!add_constraint(R, J, d, iq, R_norm))
     {	  
       // Equality constraints are linearly dependent
-      throw std::runtime_error("Constraints are linearly dependent");
-      return f_value;
+      //throw std::runtime_error("Constraints are linearly dependent");
+      //return f_value;
     }
   }
   
